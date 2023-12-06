@@ -50,7 +50,7 @@ def get_filters():
     while day not in days:
         day = input('Please try again ').lower()
         if day in days:
-            print('well done , the day is {}'.format(day))
+            print('Well done , the day is {}'.format(day))
             break
         else:
             print('Emo, Hurry up ')
@@ -122,16 +122,16 @@ def station_stats(df):
     start_time = time.time()
 
     # display most commonly used start station
-    print('most common start station:', df['Start Station'].mode()[0])
+    print('Most common start station:', df['Start Station'].mode()[0])
 
     # display most commonly used end station
-    print('most common end station:', df['End Station'].mode()[0])
+    print('Most common end station:', df['End Station'].mode()[0])
 
     # display most frequent combination of start station and end station trip
     Comb_Station = df.groupby(['Start Station', 'End Station'])['Trip Duration'].agg(
         'count').sort_values(ascending=False).head(1)
 
-    print("most common trip from start to end: \n", Comb_Station)
+    print("Most common trip from start to end: \n", Comb_Station)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
