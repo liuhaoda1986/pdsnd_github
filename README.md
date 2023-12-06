@@ -15,5 +15,5 @@ new_your_city.csv
 washington.csv
 
 ### Credits
-communicate with my classmate.
+communicate and learn with my classmate.
 

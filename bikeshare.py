@@ -41,7 +41,7 @@ def get_filters():
         else:
             print('Emo!, something went worng')
 
-
+# create a change for git
     # get user input for day of week (all, monday, tuesday, ... sunday)
     days = ['all', 'monday', 'sunday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
