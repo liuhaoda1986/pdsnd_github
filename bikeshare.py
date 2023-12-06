@@ -26,7 +26,7 @@ def get_filters():
             print("Great!,{}".format(city))
             break
         else:
-            print("Emo!,try again")
+            print("Emo!,Hurry up")
 
     # get user input for month (all, january, february, ... , june)
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
@@ -39,7 +39,7 @@ def get_filters():
             print("Good,{}".format(month))
             break
         else:
-            print('Emo!, something went worng')
+            print('Emo!, Hurry up')
 
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -53,7 +53,7 @@ def get_filters():
             print('well done , the day is {}'.format(day))
             break
         else:
-            print('Emo, try again ')
+            print('Emo, Hurry up ')
 
 
 
